@@ -1,0 +1,228 @@
+/* Extra small devices (phones, 576px and down) */
+@media (max-width: 576px) {
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+    header {
+        height: 100px;
+    }
+    .head {
+        font-size: 50px;
+    }
+    nav a {
+        font-size: 16px;
+        margin: 10px;
+    }
+    nav ul li {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .images {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .images img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .myslides {
+        width: 100%;
+        height: 300px;
+    }
+    .myslides img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Small devices (tablets, 577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+    body {
+        margin: 15px;
+        padding: 15px;
+    }
+    header {
+        height: 120px;
+    }
+    .head {
+        font-size: 70px;
+    }
+    nav a {
+        font-size: 18px;
+        margin: 15px;
+    }
+    nav ul li {
+        font-size: 18px;
+        margin-right: 15px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .images {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+    .images img {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .myslides {
+        width: 95%;
+        height: 400px;
+    }
+    .myslides img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Medium devices (tablets, 769px to 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+    body {
+        margin: 20px;
+        padding: 20px;
+    }
+    header {
+        height: 140px;
+    }
+    .head {
+        font-size: 80px;
+    }
+    nav a {
+        font-size: 19px;
+        margin: 18px;
+    }
+    nav ul li {
+        font-size: 19px;
+        margin-right: 18px;
+    }
+    h1 {
+        font-size: 45px;
+    }
+    p {
+        font-size: 19px;
+    }
+    .images {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 40px;
+    }
+    .images img {
+        width: 45%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .myslides {
+        width: 90%;
+        height: 450px;
+    }
+    .myslides img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Large devices (desktops, 993px to 1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    body {
+        margin: 25px;
+        padding: 25px;
+    }
+    header {
+        height: 150px;
+    }
+    .head {
+        font-size: 90px;
+    }
+    nav a {
+        font-size: 20px;
+        margin: 20px;
+    }
+    nav ul li {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .images {
+        flex-direction: row;
+        justify-content: center;
+        padding: 48px;
+    }
+    .images img {
+        width: 600px;
+        height: 550px;
+    }
+    .myslides {
+        width: 90%;
+        height: 500px;
+    }
+    .myslides img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Extra large devices (large desktops, 1201px and up) */
+@media (min-width: 1201px) {
+    body {
+        margin: 30px;
+        padding: 30px;
+    }
+    header {
+        height: 160px;
+    }
+    .head {
+        font-size: 100px;
+    }
+    nav a {
+        font-size: 22px;
+        margin: 22px;
+    }
+    nav ul li {
+        font-size: 22px;
+        margin-right: 22px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 22px;
+    }
+    .images {
+        flex-direction: row;
+        justify-content: center;
+        padding: 50px;
+    }
+    .images img {
+        width: 700px;
+        height: 650px;
+    }
+    .myslides {
+        width: 95%;
+        height: 600px;
+    }
+    .myslides img {
+        width: 100%;
+        height: 100%;
+    }
+}

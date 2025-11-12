@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <script src="script.js" defer></script>
+    <title>Explore</title>
+    <link rel="icon" type="image/png"href="images/Frame 1.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            
+        }
+        header {
+            display: flex;
+            justify-content: center;
+        }
+
+        h1 {
+           background-color: bisque;
+            font-size: 70px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgba(3, 3, 3, 0.966);
+            margin-top: 50px;
+            width: 100%;
+            padding-inline: 30px;
+            margin: 30px;
+            word-spacing: 10px;
+            border-radius: 50px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 20px;
+            text-emphasis: bold;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+
+        
+        
+        #movies-root {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 20px;
+            padding-top: 30px;
+            
+        }
+
+
+
+    </style>
+<body>
+    <header>
+<h1>EXPLORE MOVIES, SERIES, AIMATIONS </h1>
+
+    </header>
+     <nav>
+        <a href="index.html">Home</a>
+    </nav>
+
+    
+    <main>
+        <section>
+            <div id="movies-root"></div>
+        </section>
+
+        
+       
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
